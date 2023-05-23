@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h1><b>Rails - and - React </b></h1>
+  <h1><b> hello-rails-react-ivanmvh </b></h1>
 
   <br/>
 
@@ -31,7 +31,10 @@
 
 This application allows you to:
 
-- See a random greeting gotten from a rails API
+- See a random greeting gotten from a rails API.
+  - The front-end is in Redux.
+  - The back-end is in Rails.
+  - All is bundle in one Rails app using Webpack.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,7 +63,7 @@ This application allows you to:
 ### Key Features <a name="key-features"></a>
 
 - Use Postgres database.
-- Use React to fetch the API
+- Use React - Redux to fetch the API
 - Use WebPack to pack the JavaScript code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,7 +94,7 @@ you have to those tools in your local machine.
 
 ### Clone Repo
 
-Clone the project using the following bash command in an appropriate location.
+Clone the project using the following bash command in an appropriate location (your-folder)
 
 bash
   git clone https://github.com/ivanmvh/hello-rails-react-ivanmvh.git
@@ -100,7 +103,7 @@ bash
 Go to the project directory.
 
 bash
-  cd Rails-and-React
+  cd your-folder
 
 
 ### Add necessary packages
@@ -109,6 +112,10 @@ For installing necessary packages, run the following bash command:
 
 ```ruby
   bundle install
+```
+
+```npm
+  npm install
 ```
 ### Run the server in development mode
 
